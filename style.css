@@ -73,7 +73,7 @@ img{
   text-shadow: 2px 2px 5px #d48216;
 
 }
-#store{
+#store,#mac,#ipad,#iphone,#watch{
   text-decoration: none;
   color: #f2f2f2;
 }
@@ -87,8 +87,8 @@ img{
   left: 0;
   opacity: 1;
   padding: 45px 5px;
-  visibility: hidde;
-  transform: translateY(-10px);
+  visibility: hidden;
+  /* git */
   transition: 1s ease;
 }
 .dropdown-a{
@@ -103,6 +103,34 @@ img{
   margin-right: 54%;
 }
 .store:hover .dropdown{
+
+  visibility: visible;
+  transform: translateY(0px);
+  background-color: rgb(0,0,0);
+
+}
+.mac:hover .dropdown{
+
+  visibility: visible;
+  transform: translateY(0px);
+  background-color: rgb(0,0,0);
+
+}
+.ipad:hover .dropdown{
+
+  visibility: visible;
+  transform: translateY(0px);
+  background-color: rgb(0,0,0);
+
+}
+.iphone:hover .dropdown{
+
+  visibility: visible;
+  transform: translateY(0px);
+  background-color: rgb(0,0,0);
+
+}
+.watch:hover .dropdown{
 
   visibility: visible;
   transform: translateY(0px);
