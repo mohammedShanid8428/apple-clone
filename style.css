@@ -38,44 +38,7 @@ li{
 }
   
 
-.welcome-content h1{
-  /* position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center; */
-  color: #f2f2f2;
 
-  
-}
-.welcome-headline {
-  position:absolute;
-  justify-content: center;
-  align-items: center;
-  letter-spacing: .08rem;
-  margin: 30px;
-  padding: 5px;
-  font-size: 25px;
-  font-weight: bold;
-  color: #770606;
-  
-  
-}
-.welcome-content-container{
-  background-image: url(./images/iphone\ 16\ pro\ image.jpg);
-  height: 80vh;
-  background-position: center;
-  background-size: 80%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  
-  
-}
-.h2{
-  text-shadow: 2px 2px 5px #d48216;
-
-}
 #store,#mac,#ipad,#iphone,#watch,#airpods,#tv,#entertainment,#accessories,#support{
   text-decoration: none;
   color: #f2f2f2;
@@ -105,73 +68,33 @@ li{
 .dropdown-c{
   margin-right: 43%;
 }
-.store:hover .dropdown{
+.nav-item:hover .dropdown{
 
   visibility: visible;
   transform: translateY(0px);
   background-color: rgb(0,0,0);
 
 }
-.mac:hover .dropdown{
 
-  visibility: visible;
-  transform: translateY(0px);
-  background-color: rgb(0,0,0);
+.welcome-content h1{
+  color: #f2f2f2;
 
+  
 }
-.ipad:hover .dropdown{
 
-  visibility: visible;
-  transform: translateY(0px);
-  background-color: rgb(0,0,0);
-
+.welcome-content-container{
+  background-image: url(./images/iphone\ 16\ pro\ image.jpg);
+  height: 80vh;
+  background-position: center;
+  background-size: 80%;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  justify-content: center;
+  align-items: center;
+  
+  
 }
-.iphone:hover .dropdown{
-
-  visibility: visible;
-  transform: translateY(0px);
-  background-color: rgb(0,0,0);
-
-}
-.watch:hover .dropdown{
-
-  visibility: visible;
-  transform: translateY(0px);
-  background-color: rgb(0,0,0);
-
-}
-.airpods:hover .dropdown{
-
-  visibility: visible;
-  transform: translateY(0px);
-  background-color: rgb(0,0,0);
-
-}
-.tv:hover .dropdown{
-
-  visibility: visible;
-  transform: translateY(0px);
-  background-color: rgb(0,0,0);
-
-}
-.entertainment:hover .dropdown{
-
-  visibility: visible;
-  transform: translateY(0px);
-  background-color: rgb(0,0,0);
-
-}
-.accessories:hover .dropdown{
-
-  visibility: visible;
-  transform: translateY(0px);
-  background-color: rgb(0,0,0);
-
-}
-.support:hover .dropdown{
-
-  visibility: visible;
-  transform: translateY(0px);
-  background-color: rgb(0,0,0);
+.h2{
+  text-shadow: 2px 2px 5px #d48216;
 
 }
