@@ -7,11 +7,13 @@
   font-family: -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", Arial, sans-serif;
 }
 .header{
-  position: relative;
+  width: 100%;
+  position: fixed;
   margin: 0;
   padding: 0;
   background-color: black;
   color: #f2f2f2;
+  z-index: 1000;
 
   
 }
@@ -31,7 +33,7 @@ li{
 }
 .offer-area{
   text-align: center;
-  padding: 0.9rem;
+  padding: 3.7rem 0.9rem .9rem;
   background-color: rgb(34, 34, 34);
   color: #f2f2f2;
   font-size: 0.9rem;
@@ -77,17 +79,30 @@ li{
 
 }
 
-.welcome-content-container{
-  background-image: url(./images/iphone\ 16\ pro\ image.jpg);
-  height: 80vh;
-  background-position: center;
-  background-size: 80%;
+.main-section-1,.main-section-2{
   display: grid;
+  height: 90vh;
   grid-template-rows: 100% ;
   justify-content: space-around;
   text-align: center;  
   padding: 30px;
 }
+
+.main-section-1{
+  background-image: url(./images/iphone\ 16\ pro\ image.jpg);
+  background-position: center;
+  background-size: 80%;
+}
+.main-section-2{
+  height: 90vh;
+  background-image: url(./images/apple\ blue\ image.png);
+  background-position: center;
+  background-size: 100%;
+  margin-top: 10px;
+
+}
+
+
 .top-section{
   margin: -7px;
 }
@@ -132,4 +147,7 @@ h5{
   color: rgb(201,201,201);
   font-weight: 300;
   margin-top: 0.8rem;
+}
+.btn-section>h5{
+  color: black;
 }
